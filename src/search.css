@@ -1,0 +1,49 @@
+.Searchbar{
+    position: absolute;
+    top:20%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    display: flex;
+    width: 75%;
+    height: 75px;
+    background-color: #fff;
+    justify-content: space-evenly;
+    align-items: center;
+    border-radius: 35px;
+}
+.opt{
+    
+    width: 300px;
+    border-right: 1px solid black;
+    height: 60PX;
+    text-align: left;
+   line-height: 0;
+ 
+    
+    
+}
+.opt:nth-child(4){
+    
+border: none;
+display: flex;
+align-items: center;
+justify-content: space-between;
+}
+.opt:nth-child(4)>svg{
+    
+    width: 30px;
+    height: 30px;
+    border: 10px solid blue;
+    border-radius: 40px;
+    margin-left: 50px;
+    background-color: blue;
+}
+.opt h3{
+    
+    font-size: 22px;
+    font-weight: 400;
+}
+.opt h5{
+    font-size: 15px;
+    font-weight: 400;
+}
